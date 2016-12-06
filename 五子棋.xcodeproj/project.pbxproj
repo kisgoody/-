@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AA5319E1DF6B57200B1083C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA5319D1DF6B57200B1083C /* AppDelegate.swift */; };
+		5AA531A01DF6B57200B1083C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA5319F1DF6B57200B1083C /* ViewController.swift */; };
+		5AA531A31DF6B57200B1083C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA531A11DF6B57200B1083C /* Main.storyboard */; };
+		5AA531A51DF6B57200B1083C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA531A41DF6B57200B1083C /* Assets.xcassets */; };
+		5AA531A81DF6B57200B1083C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA531A61DF6B57200B1083C /* LaunchScreen.storyboard */; };
+		5AA531B31DF6B57200B1083C /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA531B21DF6B57200B1083C /* ___Tests.swift */; };
+		5AA531BE1DF6B57300B1083C /* ___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA531BD1DF6B57300B1083C /* ___UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AA531AF1DF6B57200B1083C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AA531921DF6B57100B1083C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA531991DF6B57200B1083C;
+			remoteInfo = "五子棋";
+		};
+		5AA531BA1DF6B57300B1083C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AA531921DF6B57100B1083C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA531991DF6B57200B1083C;
+			remoteInfo = "五子棋";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AA5319A1DF6B57200B1083C /* 五子棋.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "五子棋.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA5319D1DF6B57200B1083C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AA5319F1DF6B57200B1083C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AA531A21DF6B57200B1083C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AA531A41DF6B57200B1083C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AA531A71DF6B57200B1083C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AA531A91DF6B57200B1083C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AA531AE1DF6B57200B1083C /* 五子棋Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "五子棋Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA531B21DF6B57200B1083C /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___Tests.swift"; sourceTree = "<group>"; };
+		5AA531B41DF6B57200B1083C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AA531B91DF6B57300B1083C /* 五子棋UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "五子棋UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA531BD1DF6B57300B1083C /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
+		5AA531BF1DF6B57300B1083C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AA531971DF6B57200B1083C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA531AB1DF6B57200B1083C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA531B61DF6B57300B1083C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AA531911DF6B57100B1083C = {
+			isa = PBXGroup;
+			children = (
+				5AA5319C1DF6B57200B1083C /* 五子棋 */,
+				5AA531B11DF6B57200B1083C /* 五子棋Tests */,
+				5AA531BC1DF6B57300B1083C /* 五子棋UITests */,
+				5AA5319B1DF6B57200B1083C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AA5319B1DF6B57200B1083C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AA5319A1DF6B57200B1083C /* 五子棋.app */,
+				5AA531AE1DF6B57200B1083C /* 五子棋Tests.xctest */,
+				5AA531B91DF6B57300B1083C /* 五子棋UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AA5319C1DF6B57200B1083C /* 五子棋 */ = {
+			isa = PBXGroup;
+			children = (
+				5AA5319D1DF6B57200B1083C /* AppDelegate.swift */,
+				5AA5319F1DF6B57200B1083C /* ViewController.swift */,
+				5AA531A11DF6B57200B1083C /* Main.storyboard */,
+				5AA531A41DF6B57200B1083C /* Assets.xcassets */,
+				5AA531A61DF6B57200B1083C /* LaunchScreen.storyboard */,
+				5AA531A91DF6B57200B1083C /* Info.plist */,
+			);
+			path = "五子棋";
+			sourceTree = "<group>";
+		};
+		5AA531B11DF6B57200B1083C /* 五子棋Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5AA531B21DF6B57200B1083C /* ___Tests.swift */,
+				5AA531B41DF6B57200B1083C /* Info.plist */,
+			);
+			path = "五子棋Tests";
+			sourceTree = "<group>";
+		};
+		5AA531BC1DF6B57300B1083C /* 五子棋UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AA531BD1DF6B57300B1083C /* ___UITests.swift */,
+				5AA531BF1DF6B57300B1083C /* Info.plist */,
+			);
+			path = "五子棋UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AA531991DF6B57200B1083C /* 五子棋 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA531C21DF6B57300B1083C /* Build configuration list for PBXNativeTarget "五子棋" */;
+			buildPhases = (
+				5AA531961DF6B57200B1083C /* Sources */,
+				5AA531971DF6B57200B1083C /* Frameworks */,
+				5AA531981DF6B57200B1083C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "五子棋";
+			productName = "五子棋";
+			productReference = 5AA5319A1DF6B57200B1083C /* 五子棋.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AA531AD1DF6B57200B1083C /* 五子棋Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA531C51DF6B57300B1083C /* Build configuration list for PBXNativeTarget "五子棋Tests" */;
+			buildPhases = (
+				5AA531AA1DF6B57200B1083C /* Sources */,
+				5AA531AB1DF6B57200B1083C /* Frameworks */,
+				5AA531AC1DF6B57200B1083C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA531B01DF6B57200B1083C /* PBXTargetDependency */,
+			);
+			name = "五子棋Tests";
+			productName = "五子棋Tests";
+			productReference = 5AA531AE1DF6B57200B1083C /* 五子棋Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AA531B81DF6B57300B1083C /* 五子棋UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA531C81DF6B57300B1083C /* Build configuration list for PBXNativeTarget "五子棋UITests" */;
+			buildPhases = (
+				5AA531B51DF6B57300B1083C /* Sources */,
+				5AA531B61DF6B57300B1083C /* Frameworks */,
+				5AA531B71DF6B57300B1083C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA531BB1DF6B57300B1083C /* PBXTargetDependency */,
+			);
+			name = "五子棋UITests";
+			productName = "五子棋UITests";
+			productReference = 5AA531B91DF6B57300B1083C /* 五子棋UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AA531921DF6B57100B1083C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = EDF;
+				TargetAttributes = {
+					5AA531991DF6B57200B1083C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5AA531AD1DF6B57200B1083C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5AA531991DF6B57200B1083C;
+					};
+					5AA531B81DF6B57300B1083C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5AA531991DF6B57200B1083C;
+					};
+				};
+			};
+			buildConfigurationList = 5AA531951DF6B57100B1083C /* Build configuration list for PBXProject "五子棋" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AA531911DF6B57100B1083C;
+			productRefGroup = 5AA5319B1DF6B57200B1083C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AA531991DF6B57200B1083C /* 五子棋 */,
+				5AA531AD1DF6B57200B1083C /* 五子棋Tests */,
+				5AA531B81DF6B57300B1083C /* 五子棋UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AA531981DF6B57200B1083C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA531A81DF6B57200B1083C /* LaunchScreen.storyboard in Resources */,
+				5AA531A51DF6B57200B1083C /* Assets.xcassets in Resources */,
+				5AA531A31DF6B57200B1083C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA531AC1DF6B57200B1083C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA531B71DF6B57300B1083C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AA531961DF6B57200B1083C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA531A01DF6B57200B1083C /* ViewController.swift in Sources */,
+				5AA5319E1DF6B57200B1083C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA531AA1DF6B57200B1083C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA531B31DF6B57200B1083C /* ___Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA531B51DF6B57300B1083C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA531BE1DF6B57300B1083C /* ___UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AA531B01DF6B57200B1083C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA531991DF6B57200B1083C /* 五子棋 */;
+			targetProxy = 5AA531AF1DF6B57200B1083C /* PBXContainerItemProxy */;
+		};
+		5AA531BB1DF6B57300B1083C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA531991DF6B57200B1083C /* 五子棋 */;
+			targetProxy = 5AA531BA1DF6B57300B1083C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AA531A11DF6B57200B1083C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AA531A21DF6B57200B1083C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AA531A61DF6B57200B1083C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AA531A71DF6B57200B1083C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AA531C01DF6B57300B1083C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AA531C11DF6B57300B1083C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AA531C31DF6B57300B1083C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "五子棋/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edifier.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AA531C41DF6B57300B1083C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "五子棋/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edifier.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AA531C61DF6B57300B1083C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "五子棋Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edifier.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/五子棋.app/五子棋";
+			};
+			name = Debug;
+		};
+		5AA531C71DF6B57300B1083C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "五子棋Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edifier.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/五子棋.app/五子棋";
+			};
+			name = Release;
+		};
+		5AA531C91DF6B57300B1083C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "五子棋UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edifier.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "五子棋";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5AA531CA1DF6B57300B1083C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "五子棋UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edifier.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "五子棋";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AA531951DF6B57100B1083C /* Build configuration list for PBXProject "五子棋" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA531C01DF6B57300B1083C /* Debug */,
+				5AA531C11DF6B57300B1083C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA531C21DF6B57300B1083C /* Build configuration list for PBXNativeTarget "五子棋" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA531C31DF6B57300B1083C /* Debug */,
+				5AA531C41DF6B57300B1083C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AA531C51DF6B57300B1083C /* Build configuration list for PBXNativeTarget "五子棋Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA531C61DF6B57300B1083C /* Debug */,
+				5AA531C71DF6B57300B1083C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AA531C81DF6B57300B1083C /* Build configuration list for PBXNativeTarget "五子棋UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA531C91DF6B57300B1083C /* Debug */,
+				5AA531CA1DF6B57300B1083C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AA531921DF6B57100B1083C /* Project object */;
+}
