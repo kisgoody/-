@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A43DF2B1DF7A8F600481DBC /* 棋盘.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A43DF2A1DF7A8F600481DBC /* 棋盘.swift */; };
+		5A7E931C1DFA89E000DA5324 /* bg_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E931B1DFA89DF00DA5324 /* bg_music.mp3 */; };
+		5A7E931E1DFA89ED00DA5324 /* piece_down.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E931D1DFA89ED00DA5324 /* piece_down.wav */; };
+		5A7E932A1DFA90CE00DA5324 /* 097.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E93221DFA90CD00DA5324 /* 097.wav */; };
+		5A7E932B1DFA90CE00DA5324 /* 098.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E93231DFA90CD00DA5324 /* 098.wav */; };
+		5A7E932C1DFA90CE00DA5324 /* 102.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E93241DFA90CD00DA5324 /* 102.wav */; };
+		5A7E932D1DFA90CE00DA5324 /* 104.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E93251DFA90CD00DA5324 /* 104.wav */; };
 		5AA5319E1DF6B57200B1083C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA5319D1DF6B57200B1083C /* AppDelegate.swift */; };
 		5AA531A01DF6B57200B1083C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA5319F1DF6B57200B1083C /* ViewController.swift */; };
 		5AA531A31DF6B57200B1083C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA531A11DF6B57200B1083C /* Main.storyboard */; };
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A43DF2A1DF7A8F600481DBC /* 棋盘.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "棋盘.swift"; sourceTree = "<group>"; };
+		5A7E931B1DFA89DF00DA5324 /* bg_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bg_music.mp3; path = ../../../Desktop/bg_music.mp3; sourceTree = "<group>"; };
+		5A7E931D1DFA89ED00DA5324 /* piece_down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = piece_down.wav; path = ../../../Desktop/piece_down.wav; sourceTree = "<group>"; };
+		5A7E93221DFA90CD00DA5324 /* 097.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 097.wav; path = "../../../Downloads/sfs/棋子在各种质地的棋盘的落子声/097.wav"; sourceTree = "<group>"; };
+		5A7E93231DFA90CD00DA5324 /* 098.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 098.wav; path = "../../../Downloads/sfs/棋子在各种质地的棋盘的落子声/098.wav"; sourceTree = "<group>"; };
+		5A7E93241DFA90CD00DA5324 /* 102.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 102.wav; path = "../../../Downloads/sfs/棋子在各种质地的棋盘的落子声/102.wav"; sourceTree = "<group>"; };
+		5A7E93251DFA90CD00DA5324 /* 104.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 104.wav; path = "../../../Downloads/sfs/棋子在各种质地的棋盘的落子声/104.wav"; sourceTree = "<group>"; };
 		5AA5319A1DF6B57200B1083C /* 五子棋.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "五子棋.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA5319D1DF6B57200B1083C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AA5319F1DF6B57200B1083C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,9 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A7E931A1DFA898B00DA5324 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5A7E93221DFA90CD00DA5324 /* 097.wav */,
+				5A7E93231DFA90CD00DA5324 /* 098.wav */,
+				5A7E93241DFA90CD00DA5324 /* 102.wav */,
+				5A7E93251DFA90CD00DA5324 /* 104.wav */,
+				5A7E931D1DFA89ED00DA5324 /* piece_down.wav */,
+				5A7E931B1DFA89DF00DA5324 /* bg_music.mp3 */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
 		5AA531911DF6B57100B1083C = {
 			isa = PBXGroup;
 			children = (
+				5A7E931A1DFA898B00DA5324 /* sounds */,
 				5AA5319C1DF6B57200B1083C /* 五子棋 */,
 				5AA531B11DF6B57200B1083C /* 五子棋Tests */,
 				5AA531BC1DF6B57300B1083C /* 五子棋UITests */,
@@ -103,6 +131,7 @@
 				5AA531A41DF6B57200B1083C /* Assets.xcassets */,
 				5AA531A61DF6B57200B1083C /* LaunchScreen.storyboard */,
 				5AA531A91DF6B57200B1083C /* Info.plist */,
+				5A43DF2A1DF7A8F600481DBC /* 棋盘.swift */,
 			);
 			path = "五子棋";
 			sourceTree = "<group>";
@@ -229,9 +258,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A7E932D1DFA90CE00DA5324 /* 104.wav in Resources */,
 				5AA531A81DF6B57200B1083C /* LaunchScreen.storyboard in Resources */,
+				5A7E932B1DFA90CE00DA5324 /* 098.wav in Resources */,
+				5A7E931E1DFA89ED00DA5324 /* piece_down.wav in Resources */,
 				5AA531A51DF6B57200B1083C /* Assets.xcassets in Resources */,
+				5A7E932C1DFA90CE00DA5324 /* 102.wav in Resources */,
+				5A7E932A1DFA90CE00DA5324 /* 097.wav in Resources */,
 				5AA531A31DF6B57200B1083C /* Main.storyboard in Resources */,
+				5A7E931C1DFA89E000DA5324 /* bg_music.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AA531A01DF6B57200B1083C /* ViewController.swift in Sources */,
+				5A43DF2B1DF7A8F600481DBC /* 棋盘.swift in Sources */,
 				5AA5319E1DF6B57200B1083C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +520,7 @@
 				5AA531C41DF6B57300B1083C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AA531C51DF6B57300B1083C /* Build configuration list for PBXNativeTarget "五子棋Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +529,7 @@
 				5AA531C71DF6B57300B1083C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AA531C81DF6B57300B1083C /* Build configuration list for PBXNativeTarget "五子棋UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +538,7 @@
 				5AA531CA1DF6B57300B1083C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
